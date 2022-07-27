@@ -1,0 +1,468 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "EZ Crypto 101"
+    },
+    {
+      "id": 2,
+      "title": "Lorem Ipsum"
+    }
+  ],
+  "parts": [
+    {
+      "id": 1,
+      "courseId": "1",
+      "name": "Part 1",
+      "difficult": "Beginner"
+    },
+    {
+      "id": 2,
+      "courseId": "1",
+      "name": "Part 2",
+      "difficult": "Medium"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "partId": "1",
+      "question": {
+        "type": 1,
+        "title": "What is Cryptocurrency?",
+        "description": null
+      },
+      "answers": [
+        {
+          "type": 2,
+          "content": "https://thientu.vn/userfiles/files/Cryptocurrency.jpeg",
+          "isCorrect": true,
+          "index": 1
+        },
+        {
+          "type": 2,
+          "content": "https://1.bp.blogspot.com/-imIY2NKSIv4/XSLNSEhFt2I/AAAAAAAAAi8/gungvpmkixcXZ42WOgLveJzRSVwGW_mUwCLcBGAs/s1600/sharon-mccutcheon-8lnbXtxFGZw-unsplash.jpg",
+          "isCorrect": false,
+          "index": 2
+        },
+        {
+          "type": 2,
+          "content": "https://duhoctms.edu.vn/wp-content/uploads/2022/01/Tu-vung-chu-de-Tien-te-Money-Bai-tap-chi-tiet.jpg",
+          "isCorrect": false,
+          "index": 3
+        },
+        {
+          "type": 2,
+          "content": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkdxCPxbEJsvcKa1XnAVU481BQOFSp7nltPj9v-2VWro79_RDsEuuq7kA8lKV8Ka1tsVY&usqp=CAU",
+          "isCorrect": false,
+          "index": 4
+        }
+      ],
+      "lesson": {
+        "title": "What is Lorem Ipsum?",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "image": "https://cdn2.mhpbooks.com/2014/03/test_ttp_big.jpg"
+      }
+    },
+    {
+      "id": 2,
+      "partId": "1",
+      "question": {
+        "type": 1,
+        "title": "What is money?",
+        "description": "Money is any item or verifiable record that is generally accepted as payment for goods and ____1____ and repayment of debts, such as taxes, in a particular country or socio-economic context. The main functions of money are distinguished as: a medium of exchange, a unit of account, and as a ____2____"
+      },
+      "answers": [
+        {
+          "type": 1,
+          "content": "services / store of value",
+          "isCorrect": true,
+          "index": 1
+        },
+        {
+          "type": 1,
+          "content": "obligations / construction material",
+          "isCorrect": false,
+          "index": 2
+        },
+        {
+          "type": 1,
+          "content": "items / speculative asset",
+          "isCorrect": false,
+          "index": 3
+        },
+        {
+          "type": 1,
+          "content": "contracts / ledger",
+          "isCorrect": false,
+          "index": 4
+        }
+      ],
+      "lesson": {
+        "title": "What is Lorem Ipsum?",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "image": "https://cdn2.mhpbooks.com/2014/03/test_ttp_big.jpg"
+      }
+    },
+    {
+      "id": 3,
+      "partId": "1",
+      "question": {
+        "type": 1,
+        "title": "What is the difference between cryptocurrencies and blockchain?",
+        "description": "Blockchain is a storage technology that is used to save data on ____1____ networks. Cryptocurrency is a medium of exchange like the US dollar. A blockchain can be used for storing information beyond cryptocurrency transaction information. Blockchain technology has uses beyond cryptocurrency. Cryptocurrency is a form of digital ____2____. "
+      },
+      "answers": [
+        {
+          "type": 1,
+          "content": "digital / art",
+          "isCorrect": false,
+          "index": 1
+        },
+        {
+          "type": 1,
+          "content": "centralized / storage",
+          "isCorrect": false,
+          "index": 2
+        },
+        {
+          "type": 1,
+          "content": "interconnected / communication",
+          "isCorrect": false,
+          "index": 3
+        },
+        {
+          "type": 1,
+          "content": "decentralized / money",
+          "isCorrect": true,
+          "index": 4
+        }
+      ],
+      "lesson": {
+        "title": "What is Lorem Ipsum?",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "image": "https://cdn2.mhpbooks.com/2014/03/test_ttp_big.jpg"
+      }
+    },
+    {
+      "id": 4,
+      "partId": "1",
+      "question": {
+        "type": 1,
+        "title": "What can I do with cryptocurrency?",
+        "description": null
+      },
+      "answers": [
+        {
+          "type": 1,
+          "content": "Crypto can be used for low-cost money transfers",
+          "isCorrect": false,
+          "index": 1
+        },
+        {
+          "type": 1,
+          "content": "Crypto can earn interest with ‘yield farming",
+          "isCorrect": false,
+          "index": 2
+        },
+        {
+          "type": 1,
+          "content": "Make private transactions",
+          "isCorrect": false,
+          "index": 3
+        },
+        {
+          "type": 1,
+          "content": "All of the above",
+          "isCorrect": true,
+          "index": 4
+        }
+      ],
+      "lesson": {
+        "title": "What is Lorem Ipsum?",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "image": "https://cdn2.mhpbooks.com/2014/03/test_ttp_big.jpg"
+      }
+    },
+    {
+      "id": 5,
+      "partId": "1",
+      "question": {
+        "type": 1,
+        "title": "What are the benefits of blockchain technology",
+        "description": "The main benefit of using blockchain technology is that it is decentralized. No one owns the network, which makes it resilient and resistant to failures and manipulation. Since network information must be verified by many participants, there are rarely errors, eliminating erroneous information. Eliminating the need for an intermediary also reduces cost."
+      },
+      "answers": [
+        {
+          "type": 1,
+          "content": "True",
+          "isCorrect": true,
+          "index": 1
+        },
+        {
+          "type": 1,
+          "content": "False",
+          "isCorrect": false,
+          "index": 2
+        }
+      ],
+      "lesson": {
+        "title": "What is Lorem Ipsum?",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "image": "https://cdn2.mhpbooks.com/2014/03/test_ttp_big.jpg"
+      }
+    },
+    {
+      "id": 6,
+      "partId": "1",
+      "question": {
+        "type": 2,
+        "title": "So, what is money?",
+        "description": null
+      },
+      "answers": [
+        {
+          "type": 1,
+          "content": "Inflation",
+          "isCorrect": true,
+          "index": 1
+        },
+        {
+          "type": 1,
+          "content": "money",
+          "isCorrect": true,
+          "index": 9
+        },
+        {
+          "type": 1,
+          "content": "in",
+          "isCorrect": true,
+          "index": 4
+        },
+        {
+          "type": 1,
+          "content": "is",
+          "isCorrect": true,
+          "index": 2
+        },
+        {
+          "type": 1,
+          "content": "a reduction",
+          "isCorrect": true,
+          "index": 3
+        },
+        {
+          "type": 1,
+          "content": "the",
+          "isCorrect": true,
+          "index": 5
+        },
+        {
+          "type": 1,
+          "content": "purchasing",
+          "isCorrect": true,
+          "index": 6
+        },
+        {
+          "type": 1,
+          "content": "of",
+          "isCorrect": true,
+          "index": 8
+        },
+        {
+          "type": 1,
+          "content": "power",
+          "isCorrect": true,
+          "index": 7
+        }
+      ],
+      "lesson": {
+        "title": "What is Lorem Ipsum?",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "image": "https://cdn2.mhpbooks.com/2014/03/test_ttp_big.jpg"
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "tri@gmail.com",
+      "password": "plaintext",
+      "username": "minhtri",
+      "createAt": "2015-12-01T00:00:00",
+      "updatedAt": "2015-12-01T00:00:00",
+      "role": 2
+    },
+    {
+      "id": 2,
+      "email": "dinh@gmail.com",
+      "password": "plaintext",
+      "username": "thanhdinh",
+      "createAt": "2015-12-01T00:00:00",
+      "updatedAt": "2015-12-01T00:00:00",
+      "role": 2
+    },
+    {
+      "id": 3,
+      "email": "tri2@gmail.com",
+      "password": "plaintext",
+      "username": "minhtri",
+      "createAt": "2015-12-01T00:00:00",
+      "updatedAt": "2015-12-01T00:00:00",
+      "role": 2
+    }
+  ],
+  "tests": [
+    {
+      "id": 1,
+      "userId": 1,
+      "userAnswers": [
+        {
+          "questionId": 1,
+          "answer": [
+            1
+          ]
+        },
+        {
+          "questionId": 2,
+          "answer": [
+            2
+          ]
+        },
+        {
+          "questionId": 3,
+          "answer": [
+            3
+          ]
+        },
+        {
+          "questionId": 4,
+          "answer": [
+            4
+          ]
+        },
+        {
+          "questionId": 5,
+          "answer": [
+            1
+          ]
+        },
+        {
+          "questionId": 6,
+          "answer": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        }
+      ]
+    },
+    [
+      {
+        "id": 2,
+        "userId": 1,
+        "userAnswers": [
+          {
+            "questionId": 1,
+            "answer": [
+              1
+            ]
+          },
+          {
+            "questionId": 2,
+            "answer": [
+              2
+            ]
+          },
+          {
+            "questionId": 3,
+            "answer": [
+              3
+            ]
+          },
+          {
+            "questionId": 4,
+            "answer": [
+              4
+            ]
+          },
+          {
+            "questionId": 5,
+            "answer": [
+              1
+            ]
+          },
+          {
+            "questionId": 6,
+            "answer": [
+              8,
+              7,
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ]
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "id": 3,
+        "userId": 2,
+        "userAnswers": [
+          {
+            "questionId": 1,
+            "answer": [
+              1
+            ]
+          },
+          {
+            "questionId": 2,
+            "answer": [
+              2
+            ]
+          },
+          {
+            "questionId": 3,
+            "answer": [
+              3
+            ]
+          },
+          {
+            "questionId": 4,
+            "answer": [
+              4
+            ]
+          },
+          {
+            "questionId": 5,
+            "answer": [
+              1
+            ]
+          },
+          {
+            "questionId": 6,
+            "answer": [
+              8,
+              7,
+              6,
+              5,
+              4,
+              3,
+              2,
+              1
+            ]
+          }
+        ]
+      }
+    ]
+  ]
+}

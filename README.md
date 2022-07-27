@@ -1,6 +1,8 @@
 # json-server-ezwallet
 
-## Running
+## Install dependencies
 ` npm install `
-` json-server --watch db.json`
+
+## Run 
+`json-server --watch db.json`
  

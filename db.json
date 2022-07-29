@@ -1,58 +1,83 @@
 {
   "courses": [
     {
-      "id": 1,
-      "title": "EZ Crypto 101"
+      "id": "course_1",
+      "title": "EZ Courses  🌟",
+      "partId": "type_1",
+      "description": "Educational program of EZ Wallet",
+      "parts": [
+        {
+          "id": "part_1",
+          "title": "EZ Crypto 101",
+          "category": "Beginer",
+          "description": "12 Questions",
+          "reward": "100 EZ",
+          "courseItemUri": "images/static_courses/course_detail_1.png"
+        },
+        {
+          "id": "part_2",
+          "title": "Binance Academy Fundamental",
+          "description": "Indepth course on Finance and Cryptocurrency",
+          "reward": "10 EZ",
+          "category": "Beginner to Expert",
+          "courseItemUri": "images/static_courses/course_detail_1.png"
+        }
+      ]
     },
     {
-      "id": 2,
-      "title": "Lorem Ipsum"
+      "id": "course_2",
+      "title": "Other Courses",
+      "description": "Helpful courses from top brands",
+      "parts": [
+        {
+          "id": "part_1",
+          "title": "EZ Crypto 101",
+          "category": "Beginer",
+          "description": "12 Questions",
+          "reward": "100 EZ",
+          "courseItemUri": "images/static_courses/course_detail_1.png"
+        },
+        {
+          "id": "part_2",
+          "title": "Binance Academy Fundamental",
+          "description": "Indepth course on Finance and Cryptocurrency",
+          "reward": "10 EZ",
+          "category": "Beginner to Expert",
+          "courseItemUri": "images/static_courses/course_detail_1.png"
+        }
+      ]
     }
   ],
-  "parts": [
-    {
-      "id": 1,
-      "courseId": "1",
-      "name": "Part 1",
-      "difficult": "Beginner"
-    },
-    {
-      "id": 2,
-      "courseId": "1",
-      "name": "Part 2",
-      "difficult": "Medium"
-    }
-  ],
+
   "questions": [
     {
       "id": 1,
-      "partId": "1",
       "question": {
-        "type": 1,
+        "type": "MULTIPLE_CHOICE",
         "title": "What is Cryptocurrency?",
         "description": null
       },
       "answers": [
         {
-          "type": 2,
+          "type": "IMAGE",
           "content": "https://thientu.vn/userfiles/files/Cryptocurrency.jpeg",
           "isCorrect": true,
           "index": 1
         },
         {
-          "type": 2,
+          "type": "IMAGE",
           "content": "https://1.bp.blogspot.com/-imIY2NKSIv4/XSLNSEhFt2I/AAAAAAAAAi8/gungvpmkixcXZ42WOgLveJzRSVwGW_mUwCLcBGAs/s1600/sharon-mccutcheon-8lnbXtxFGZw-unsplash.jpg",
           "isCorrect": false,
           "index": 2
         },
         {
-          "type": 2,
+          "type": "IMAGE",
           "content": "https://duhoctms.edu.vn/wp-content/uploads/2022/01/Tu-vung-chu-de-Tien-te-Money-Bai-tap-chi-tiet.jpg",
           "isCorrect": false,
           "index": 3
         },
         {
-          "type": 2,
+          "type": "IMAGE",
           "content": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkdxCPxbEJsvcKa1XnAVU481BQOFSp7nltPj9v-2VWro79_RDsEuuq7kA8lKV8Ka1tsVY&usqp=CAU",
           "isCorrect": false,
           "index": 4
@@ -66,33 +91,32 @@
     },
     {
       "id": 2,
-      "partId": "1",
       "question": {
-        "type": 1,
+        "type": "MULTIPLE_CHOICE",
         "title": "What is money?",
         "description": "Money is any item or verifiable record that is generally accepted as payment for goods and ____1____ and repayment of debts, such as taxes, in a particular country or socio-economic context. The main functions of money are distinguished as: a medium of exchange, a unit of account, and as a ____2____"
       },
       "answers": [
         {
-          "type": 1,
+          "type": "TEXT",
           "content": "services / store of value",
           "isCorrect": true,
           "index": 1
         },
         {
-          "type": 1,
+          "type": "TEXT",
           "content": "obligations / construction material",
           "isCorrect": false,
           "index": 2
         },
         {
-          "type": 1,
+          "type": "TEXT",
           "content": "items / speculative asset",
           "isCorrect": false,
           "index": 3
         },
         {
-          "type": 1,
+          "type": "TEXT",
           "content": "contracts / ledger",
           "isCorrect": false,
           "index": 4
@@ -106,33 +130,32 @@
     },
     {
       "id": 3,
-      "partId": "1",
       "question": {
-        "type": 1,
+        "type": "MULTIPLE_CHOICE",
         "title": "What is the difference between cryptocurrencies and blockchain?",
         "description": "Blockchain is a storage technology that is used to save data on ____1____ networks. Cryptocurrency is a medium of exchange like the US dollar. A blockchain can be used for storing information beyond cryptocurrency transaction information. Blockchain technology has uses beyond cryptocurrency. Cryptocurrency is a form of digital ____2____. "
       },
       "answers": [
         {
-          "type": 1,
+          "type": "TEXT",
           "content": "digital / art",
           "isCorrect": false,
           "index": 1
         },
         {
-          "type": 1,
+          "type": "TEXT",
           "content": "centralized / storage",
           "isCorrect": false,
           "index": 2
         },
         {
-          "type": 1,
+          "type": "TEXT",
           "content": "interconnected / communication",
           "isCorrect": false,
           "index": 3
         },
         {
-          "type": 1,
+          "type": "TEXT",
           "content": "decentralized / money",
           "isCorrect": true,
           "index": 4
@@ -146,33 +169,32 @@
     },
     {
       "id": 4,
-      "partId": "1",
       "question": {
-        "type": 1,
+        "type": "MULTIPLE_CHOICE",
         "title": "What can I do with cryptocurrency?",
         "description": null
       },
       "answers": [
         {
-          "type": 1,
+          "type": "TEXT",
           "content": "Crypto can be used for low-cost money transfers",
           "isCorrect": false,
           "index": 1
         },
         {
-          "type": 1,
+          "type": "TEXT",
           "content": "Crypto can earn interest with ‘yield farming",
           "isCorrect": false,
           "index": 2
         },
         {
-          "type": 1,
+          "type": "TEXT",
           "content": "Make private transactions",
           "isCorrect": false,
           "index": 3
         },
         {
-          "type": 1,
+          "type": "TEXT",
           "content": "All of the above",
           "isCorrect": true,
           "index": 4
@@ -186,21 +208,20 @@
     },
     {
       "id": 5,
-      "partId": "1",
       "question": {
-        "type": 1,
+        "type": "MULTIPLE_CHOICE",
         "title": "What are the benefits of blockchain technology",
         "description": "The main benefit of using blockchain technology is that it is decentralized. No one owns the network, which makes it resilient and resistant to failures and manipulation. Since network information must be verified by many participants, there are rarely errors, eliminating erroneous information. Eliminating the need for an intermediary also reduces cost."
       },
       "answers": [
         {
-          "type": 1,
+          "type": "TEXT",
           "content": "True",
           "isCorrect": true,
           "index": 1
         },
         {
-          "type": 1,
+          "type": "TEXT",
           "content": "False",
           "isCorrect": false,
           "index": 2
@@ -214,57 +235,56 @@
     },
     {
       "id": 6,
-      "partId": "1",
       "question": {
-        "type": 2,
+        "type": "SORT",
         "title": "So, what is money?",
         "description": null
       },
       "answers": [
         {
-          "type": 1,
+          "type": "TEXT",
           "content": "Inflation",
           "isCorrect": true,
           "index": 1
         },
         {
-          "type": 1,
+          "type": "TEXT",
           "content": "money",
           "isCorrect": true,
           "index": 9
         },
         {
-          "type": 1,
+          "type": "TEXT",
           "content": "in",
           "isCorrect": true,
           "index": 4
         },
         {
-          "type": 1,
+          "type": "TEXT",
           "content": "is",
           "isCorrect": true,
           "index": 2
         },
         {
-          "type": 1,
+          "type": "TEXT",
           "content": "a reduction",
           "isCorrect": true,
           "index": 3
         },
         {
-          "type": 1,
+          "type": "TEXT",
           "content": "the",
           "isCorrect": true,
           "index": 5
         },
         {
-          "type": 1,
+          "type": "TEXT",
           "content": "purchasing",
           "isCorrect": true,
           "index": 6
         },
         {
-          "type": 1,
+          "type": "TEXT",
           "content": "of",
           "isCorrect": true,
           "index": 8
@@ -319,46 +339,27 @@
       "userAnswers": [
         {
           "questionId": 1,
-          "answer": [
-            1
-          ]
+          "answer": [1]
         },
         {
           "questionId": 2,
-          "answer": [
-            2
-          ]
+          "answer": [2]
         },
         {
           "questionId": 3,
-          "answer": [
-            3
-          ]
+          "answer": [3]
         },
         {
           "questionId": 4,
-          "answer": [
-            4
-          ]
+          "answer": [4]
         },
         {
           "questionId": 5,
-          "answer": [
-            1
-          ]
+          "answer": [1]
         },
         {
           "questionId": 6,
-          "answer": [
-            1,
-            2,
-            3,
-            4,
-            5,
-            6,
-            7,
-            8
-          ]
+          "answer": [1, 2, 3, 4, 5, 6, 7, 8]
         }
       ]
     },
@@ -369,46 +370,27 @@
         "userAnswers": [
           {
             "questionId": 1,
-            "answer": [
-              1
-            ]
+            "answer": [1]
           },
           {
             "questionId": 2,
-            "answer": [
-              2
-            ]
+            "answer": [2]
           },
           {
             "questionId": 3,
-            "answer": [
-              3
-            ]
+            "answer": [3]
           },
           {
             "questionId": 4,
-            "answer": [
-              4
-            ]
+            "answer": [4]
           },
           {
             "questionId": 5,
-            "answer": [
-              1
-            ]
+            "answer": [1]
           },
           {
             "questionId": 6,
-            "answer": [
-              8,
-              7,
-              6,
-              5,
-              4,
-              3,
-              2,
-              1
-            ]
+            "answer": [8, 7, 6, 5, 4, 3, 2, 1]
           }
         ]
       }
@@ -420,46 +402,27 @@
         "userAnswers": [
           {
             "questionId": 1,
-            "answer": [
-              1
-            ]
+            "answer": [1]
           },
           {
             "questionId": 2,
-            "answer": [
-              2
-            ]
+            "answer": [2]
           },
           {
             "questionId": 3,
-            "answer": [
-              3
-            ]
+            "answer": [3]
           },
           {
             "questionId": 4,
-            "answer": [
-              4
-            ]
+            "answer": [4]
           },
           {
             "questionId": 5,
-            "answer": [
-              1
-            ]
+            "answer": [1]
           },
           {
             "questionId": 6,
-            "answer": [
-              8,
-              7,
-              6,
-              5,
-              4,
-              3,
-              2,
-              1
-            ]
+            "answer": [8, 7, 6, 5, 4, 3, 2, 1]
           }
         ]
       }
